@@ -221,6 +221,7 @@ function elementCreator(numbOfItem,idNum){
     
     let imgDIV = document.createElement('img')
     imgDIV.setAttribute('src', imageList[idNum[l]])
+    imgDIV.setAttribute('alt', titleList[idNum[l]])
     imgDIV.classList.add('photo')
     outerDIV.append(imgDIV)
   
