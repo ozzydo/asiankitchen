@@ -95,7 +95,7 @@ for(var i=0;i<nameOfCateg.length;i++){
   btnCon.append(categ[i])
 }
 
-/******bilgi alma */
+/******bilgi <alma ***********/
 
 let idList = []
 let titleList = []
